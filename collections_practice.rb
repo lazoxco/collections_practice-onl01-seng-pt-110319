@@ -44,6 +44,6 @@ def find_a(strings)
 end
 
 def sum_array(integers)
-  
+  integers.sum {}
 end 
 
