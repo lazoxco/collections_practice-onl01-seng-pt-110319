@@ -54,6 +54,6 @@ def sum_array(integers)
 end 
 
 def add_s(array)
-  array.each_with_index.collect { |element, index| }
+  array.each_with_index.collect { |element, index| if element == array[index]}
 end
 
