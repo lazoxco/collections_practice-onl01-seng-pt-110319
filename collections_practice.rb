@@ -30,7 +30,7 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  # array = []
+  array = []
   # array << if strings.start_with?("a")
   
   i = 0 
