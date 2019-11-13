@@ -41,5 +41,7 @@ def find_a(strings)
     i += 1
   end
   array
-end 
+end
+
+
 
