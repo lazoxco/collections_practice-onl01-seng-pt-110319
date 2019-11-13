@@ -35,5 +35,7 @@ def find_a(strings)
   
   i = 0 
   while i < strings.length
+  
+  end
 end 
 
