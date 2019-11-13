@@ -44,6 +44,14 @@ def find_a(strings)
 end
 
 def sum_array(integers)
-  integers.inject(0){ |sum, num| sum + num } 
+  # integers.inject(0){ |sum, num| sum + num } 
+  def sum_array(array)
+  
+  sum = 0
+  integers.each do |num|
+    sum+=num
+  end
+  sum
+end 
 end 
 
