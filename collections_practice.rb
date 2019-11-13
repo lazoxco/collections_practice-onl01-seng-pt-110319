@@ -54,7 +54,14 @@ def sum_array(integers)
 end 
 
 def add_s(array)
-  array.each_with_index
-  array.collect { |word| word + "s" }
+  array.each_with_index { |value, index |
+    
+    if value != array[1]
+    
+    array.collect { |word| word + "s" }
+    
+    
+  }
+  
 end
 
