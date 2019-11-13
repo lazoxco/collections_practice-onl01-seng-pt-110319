@@ -51,6 +51,9 @@ def sum_array(integers)
   #   sum+=num
   # end
   # sum
-  
 end 
+
+def add_s(array)
+  
+end
 
