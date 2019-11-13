@@ -25,6 +25,6 @@ end
 
 def kesha_maker(strings)
   strings.each do |word|
-    split_string = word.split(" ")
+    word.chars
   end
 end 
