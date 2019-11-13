@@ -31,6 +31,6 @@ end
 
 def find_a(strings)
   array = []
-  array << strings.start_with?("a")
+  array << if strings.start_with?("a")
 end 
 
