@@ -30,6 +30,6 @@ def kesha_maker(strings)
 end
 
 def find_a(strings_array)
-  stinrgs_array.start_with?("a")
+  strings.start_with?("a")
 end 
 
