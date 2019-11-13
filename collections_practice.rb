@@ -25,6 +25,6 @@ end
 
 def kesha_maker(strings)
   strings.each do |word|
-    word.chars
+    word[2] = $
   end
 end 
