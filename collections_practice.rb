@@ -36,7 +36,8 @@ def find_a(strings)
   i = 0 
   while i < strings.length
     if strings[i].start_with?("a")
-      array << 
+      array << strings[i]
   end
+  array
 end 
 
