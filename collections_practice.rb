@@ -60,7 +60,9 @@ def add_s(array)
   #     array.collect { |word| word + "s" }
   #   end
   
-  array.collect do |word| word + "s" 
+  array.collect do |word|
+    
+    if arra[1] == word
   
   end
 end
